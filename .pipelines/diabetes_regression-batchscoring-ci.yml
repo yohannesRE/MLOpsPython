@@ -37,7 +37,7 @@ variables:
 - group: devopsforai-aml-vg
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: "default"
 
 stages:
 - stage: 'Batch_Scoring_Pipeline_CI'
